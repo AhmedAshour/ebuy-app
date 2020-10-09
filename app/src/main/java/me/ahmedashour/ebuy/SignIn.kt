@@ -15,5 +15,12 @@ class SignIn : AppCompatActivity() {
 
             startActivity(Intent(this, SignUp::class.java))
         }
+
+
+        //TODO password and email authentification before user can sign in...
+        signIn_btn.setOnClickListener {
+
+            startActivity(Intent(this, MainActivity::class.java))
+        }
     }
 }
