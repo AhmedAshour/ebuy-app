@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
-        android:hint="Full Name"
+        android:hint="@string/full_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,7 +33,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Email"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,7 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Password"
+        android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -77,7 +77,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Retype Password"
+        android:hint="@string/retype_password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -99,7 +99,7 @@
         android:layout_below="@id/retype_PasswordInputLayout"
         android:layout_centerHorizontal="true"
         android:background="@color/colorAccent"
-        android:text="Log In"
+        android:text="@string/log_in"
         android:textColor="@android:color/white"/>
 
     <CheckBox
@@ -109,7 +109,7 @@
         android:layout_below="@id/login_btn"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-        android:text="Apply to be Seller"
+        android:text="@string/apply_to_be_seller"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold" />

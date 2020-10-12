@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
         android:layout_centerHorizontal="true"
-        android:text= "Keeps Business Going"
+        android:text= "@string/keeps_business_going"
         android:textColor="#0538F3"
         android:textSize="18sp"
         android:textStyle="bold"/>

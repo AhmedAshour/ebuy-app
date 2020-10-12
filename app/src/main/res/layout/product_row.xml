@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            android:hint="Title"
+            android:hint="@string/title"
             tools:text="Product's Name"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="100.0$"
-            android:hint="Price"
+            android:hint="@string/price"
             android:textColor="@android:color/holo_blue_dark"
             android:textSize="18sp" />
     </LinearLayout>

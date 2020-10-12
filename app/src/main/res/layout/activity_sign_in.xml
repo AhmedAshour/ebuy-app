@@ -22,7 +22,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Email"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -43,7 +43,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:hint="Password"
+        android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:text="Admin"
+            android:text="@string/admin"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -81,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Seller"
+            android:text="@string/seller"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -95,7 +95,7 @@
         android:layout_below="@id/checkBoxes"
         android:layout_centerHorizontal="true"
         android:background="@color/colorAccent"
-        android:text="Sign In"
+        android:text="@string/sign_in"
         android:textColor="@android:color/white"/>
 
     <LinearLayout
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Don't have an account?"
+            android:text="@string/don_t_have_an_account"
             android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold|italic" />
 
@@ -121,7 +121,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="10"
-            android:text="Sign Up"
+            android:text="@string/sign_up"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
     </LinearLayout>
